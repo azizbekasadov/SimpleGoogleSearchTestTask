@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "foundations-app-icons-intro_2x.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"

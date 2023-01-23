@@ -9,13 +9,40 @@
 /* Begin PBXBuildFile section */
 		5DD6F609297ED36800A81997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F608297ED36800A81997 /* AppDelegate.swift */; };
 		5DD6F60B297ED36800A81997 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F60A297ED36800A81997 /* SceneDelegate.swift */; };
-		5DD6F60D297ED36800A81997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F60C297ED36800A81997 /* ViewController.swift */; };
-		5DD6F610297ED36800A81997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD6F60E297ED36800A81997 /* Main.storyboard */; };
 		5DD6F612297ED36B00A81997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD6F611297ED36B00A81997 /* Assets.xcassets */; };
 		5DD6F615297ED36B00A81997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD6F613297ED36B00A81997 /* LaunchScreen.storyboard */; };
 		5DD6F620297ED36C00A81997 /* SimpleGoogleSearchTestTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F61F297ED36C00A81997 /* SimpleGoogleSearchTestTaskTests.swift */; };
 		5DD6F62A297ED36C00A81997 /* SimpleGoogleSearchTestTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F629297ED36C00A81997 /* SimpleGoogleSearchTestTaskUITests.swift */; };
 		5DD6F62C297ED36C00A81997 /* SimpleGoogleSearchTestTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F62B297ED36C00A81997 /* SimpleGoogleSearchTestTaskUITestsLaunchTests.swift */; };
+		5DD6F652297EDA0D00A81997 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F651297EDA0D00A81997 /* DiscoverViewController.swift */; };
+		5DD6F654297EDAA500A81997 /* DiscoverModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F653297EDAA500A81997 /* DiscoverModels.swift */; };
+		5DD6F656297EDAE100A81997 /* DiscoverRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F655297EDAE100A81997 /* DiscoverRouter.swift */; };
+		5DD6F65A297EDB0000A81997 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F659297EDB0000A81997 /* Router.swift */; };
+		5DD6F65C297EDBC800A81997 /* DiscoverInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F65B297EDBC800A81997 /* DiscoverInteractor.swift */; };
+		5DD6F65E297EDBED00A81997 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F65D297EDBED00A81997 /* BaseViewController.swift */; };
+		5DD6F662297EDC7500A81997 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F661297EDC7500A81997 /* UIView+Extension.swift */; };
+		5DD6F665297EDCDD00A81997 /* NSNotifications.Name+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F664297EDCDD00A81997 /* NSNotifications.Name+Extension.swift */; };
+		5DD6F667297EDD7A00A81997 /* UINavigationItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F666297EDD7A00A81997 /* UINavigationItem+Extension.swift */; };
+		5DD6F669297EDDA200A81997 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F668297EDDA200A81997 /* String+Extension.swift */; };
+		5DD6F66B297EDEB100A81997 /* DiscoverWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F66A297EDEB100A81997 /* DiscoverWorker.swift */; };
+		5DD6F66D297EDEB700A81997 /* DiscoverBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F66C297EDEB700A81997 /* DiscoverBuilder.swift */; };
+		5DD6F670297EDFA000A81997 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F66F297EDFA000A81997 /* AppError.swift */; };
+		5DD6F672297EE08200A81997 /* DiscoverPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F671297EE08200A81997 /* DiscoverPresenter.swift */; };
+		5DD6F677297EE45900A81997 /* ResponseEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F676297EE45900A81997 /* ResponseEntity.swift */; };
+		5DD6F679297EE51000A81997 /* BookEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F678297EE51000A81997 /* BookEntity.swift */; };
+		5DD6F67B297EE51B00A81997 /* VolumeInfoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F67A297EE51B00A81997 /* VolumeInfoEntity.swift */; };
+		5DD6F67D297EE52800A81997 /* ImageLinksEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F67C297EE52800A81997 /* ImageLinksEntity.swift */; };
+		5DD6F67F297EE53300A81997 /* IndustryIdentifiersEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F67E297EE53300A81997 /* IndustryIdentifiersEntity.swift */; };
+		5DD6F681297EEE0E00A81997 /* DiscoverTVAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F680297EEE0E00A81997 /* DiscoverTVAdapter.swift */; };
+		5DD6F683297EEF8000A81997 /* DiscoverTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F682297EEF8000A81997 /* DiscoverTableView.swift */; };
+		5DD6F687297EF06A00A81997 /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = 5DD6F686297EF06A00A81997 /* Stevia */; };
+		5DD6F689297EF17900A81997 /* DiscoverBookTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F688297EF17900A81997 /* DiscoverBookTVCell.swift */; };
+		5DD6F68C297EF3AA00A81997 /* DiscoverBookTVCellModelProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F68B297EF3AA00A81997 /* DiscoverBookTVCellModelProxy.swift */; };
+		5DD6F68E297EFA7A00A81997 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F68D297EFA7A00A81997 /* UIViewController+Extension.swift */; };
+		5DD6F695297EFD0800A81997 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F694297EFD0800A81997 /* NetworkService.swift */; };
+		5DD6F697297EFD1300A81997 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F696297EFD1300A81997 /* NetworkServiceProtocol.swift */; };
+		5DD6F69B297EFF0100A81997 /* BookSearchTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F69A297EFF0100A81997 /* BookSearchTask.swift */; };
+		5DD6F69D297EFFF200A81997 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F69C297EFFF200A81997 /* HttpMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +66,6 @@
 		5DD6F605297ED36800A81997 /* SimpleGoogleSearchTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGoogleSearchTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD6F608297ED36800A81997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DD6F60A297ED36800A81997 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5DD6F60C297ED36800A81997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5DD6F60F297ED36800A81997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DD6F611297ED36B00A81997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DD6F614297ED36B00A81997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DD6F616297ED36B00A81997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +74,34 @@
 		5DD6F625297ED36C00A81997 /* SimpleGoogleSearchTestTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGoogleSearchTestTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD6F629297ED36C00A81997 /* SimpleGoogleSearchTestTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGoogleSearchTestTaskUITests.swift; sourceTree = "<group>"; };
 		5DD6F62B297ED36C00A81997 /* SimpleGoogleSearchTestTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGoogleSearchTestTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5DD6F651297EDA0D00A81997 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		5DD6F653297EDAA500A81997 /* DiscoverModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverModels.swift; sourceTree = "<group>"; };
+		5DD6F655297EDAE100A81997 /* DiscoverRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverRouter.swift; sourceTree = "<group>"; };
+		5DD6F659297EDB0000A81997 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		5DD6F65B297EDBC800A81997 /* DiscoverInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverInteractor.swift; sourceTree = "<group>"; };
+		5DD6F65D297EDBED00A81997 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		5DD6F661297EDC7500A81997 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		5DD6F664297EDCDD00A81997 /* NSNotifications.Name+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotifications.Name+Extension.swift"; sourceTree = "<group>"; };
+		5DD6F666297EDD7A00A81997 /* UINavigationItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+Extension.swift"; sourceTree = "<group>"; };
+		5DD6F668297EDDA200A81997 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		5DD6F66A297EDEB100A81997 /* DiscoverWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverWorker.swift; sourceTree = "<group>"; };
+		5DD6F66C297EDEB700A81997 /* DiscoverBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverBuilder.swift; sourceTree = "<group>"; };
+		5DD6F66F297EDFA000A81997 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		5DD6F671297EE08200A81997 /* DiscoverPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverPresenter.swift; sourceTree = "<group>"; };
+		5DD6F676297EE45900A81997 /* ResponseEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseEntity.swift; sourceTree = "<group>"; };
+		5DD6F678297EE51000A81997 /* BookEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookEntity.swift; sourceTree = "<group>"; };
+		5DD6F67A297EE51B00A81997 /* VolumeInfoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeInfoEntity.swift; sourceTree = "<group>"; };
+		5DD6F67C297EE52800A81997 /* ImageLinksEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLinksEntity.swift; sourceTree = "<group>"; };
+		5DD6F67E297EE53300A81997 /* IndustryIdentifiersEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndustryIdentifiersEntity.swift; sourceTree = "<group>"; };
+		5DD6F680297EEE0E00A81997 /* DiscoverTVAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTVAdapter.swift; sourceTree = "<group>"; };
+		5DD6F682297EEF8000A81997 /* DiscoverTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableView.swift; sourceTree = "<group>"; };
+		5DD6F688297EF17900A81997 /* DiscoverBookTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverBookTVCell.swift; sourceTree = "<group>"; };
+		5DD6F68B297EF3AA00A81997 /* DiscoverBookTVCellModelProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverBookTVCellModelProxy.swift; sourceTree = "<group>"; };
+		5DD6F68D297EFA7A00A81997 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		5DD6F694297EFD0800A81997 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5DD6F696297EFD1300A81997 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		5DD6F69A297EFF0100A81997 /* BookSearchTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookSearchTask.swift; sourceTree = "<group>"; };
+		5DD6F69C297EFFF200A81997 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD6F687297EF06A00A81997 /* Stevia in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +153,12 @@
 		5DD6F607297ED36800A81997 /* SimpleGoogleSearchTestTask */ = {
 			isa = PBXGroup;
 			children = (
-				5DD6F608297ED36800A81997 /* AppDelegate.swift */,
-				5DD6F60A297ED36800A81997 /* SceneDelegate.swift */,
-				5DD6F60C297ED36800A81997 /* ViewController.swift */,
-				5DD6F60E297ED36800A81997 /* Main.storyboard */,
-				5DD6F611297ED36B00A81997 /* Assets.xcassets */,
-				5DD6F613297ED36B00A81997 /* LaunchScreen.storyboard */,
-				5DD6F616297ED36B00A81997 /* Info.plist */,
+				5DD6F68F297EFBFD00A81997 /* NetworkLayer */,
+				5DD6F63E297ED3E100A81997 /* DataLayer */,
+				5DD6F63D297ED3DC00A81997 /* DomainLayer */,
+				5DD6F63C297ED3D600A81997 /* PresentationLayer */,
+				5DD6F63B297ED3CF00A81997 /* AppLayer */,
+				5DD6F638297ED3A300A81997 /* Resources */,
 			);
 			path = SimpleGoogleSearchTestTask;
 			sourceTree = "<group>";
@@ -113,6 +166,7 @@
 		5DD6F61E297ED36C00A81997 /* SimpleGoogleSearchTestTaskTests */ = {
 			isa = PBXGroup;
 			children = (
+				5DD6F63F297ED54900A81997 /* Tests */,
 				5DD6F61F297ED36C00A81997 /* SimpleGoogleSearchTestTaskTests.swift */,
 			);
 			path = SimpleGoogleSearchTestTaskTests;
@@ -121,10 +175,244 @@
 		5DD6F628297ED36C00A81997 /* SimpleGoogleSearchTestTaskUITests */ = {
 			isa = PBXGroup;
 			children = (
+				5DD6F640297ED55100A81997 /* Tests */,
 				5DD6F629297ED36C00A81997 /* SimpleGoogleSearchTestTaskUITests.swift */,
 				5DD6F62B297ED36C00A81997 /* SimpleGoogleSearchTestTaskUITestsLaunchTests.swift */,
 			);
 			path = SimpleGoogleSearchTestTaskUITests;
+			sourceTree = "<group>";
+		};
+		5DD6F638297ED3A300A81997 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F63A297ED3AE00A81997 /* Assets */,
+				5DD6F639297ED3AA00A81997 /* Launch */,
+				5DD6F616297ED36B00A81997 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DD6F639297ED3AA00A81997 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F613297ED36B00A81997 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		5DD6F63A297ED3AE00A81997 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F611297ED36B00A81997 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		5DD6F63B297ED3CF00A81997 /* AppLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F608297ED36800A81997 /* AppDelegate.swift */,
+				5DD6F60A297ED36800A81997 /* SceneDelegate.swift */,
+			);
+			path = AppLayer;
+			sourceTree = "<group>";
+		};
+		5DD6F63C297ED3D600A81997 /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F660297EDC6C00A81997 /* Components */,
+				5DD6F65F297EDC6700A81997 /* Extensions */,
+				5DD6F657297EDAF400A81997 /* Base */,
+				5DD6F658297EDAF900A81997 /* Scenes */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		5DD6F63D297ED3DC00A81997 /* DomainLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F663297EDCD700A81997 /* Extensions */,
+			);
+			path = DomainLayer;
+			sourceTree = "<group>";
+		};
+		5DD6F63E297ED3E100A81997 /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F675297EE45200A81997 /* Entities */,
+				5DD6F66E297EDF9800A81997 /* Errors */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		5DD6F63F297ED54900A81997 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		5DD6F640297ED55100A81997 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		5DD6F643297ED65E00A81997 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		5DD6F650297ED84D00A81997 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F674297EE3E700A81997 /* Components */,
+				5DD6F673297EE3E300A81997 /* Source */,
+				5DD6F651297EDA0D00A81997 /* DiscoverViewController.swift */,
+				5DD6F653297EDAA500A81997 /* DiscoverModels.swift */,
+				5DD6F655297EDAE100A81997 /* DiscoverRouter.swift */,
+				5DD6F66C297EDEB700A81997 /* DiscoverBuilder.swift */,
+				5DD6F671297EE08200A81997 /* DiscoverPresenter.swift */,
+				5DD6F66A297EDEB100A81997 /* DiscoverWorker.swift */,
+				5DD6F65B297EDBC800A81997 /* DiscoverInteractor.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		5DD6F657297EDAF400A81997 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F659297EDB0000A81997 /* Router.swift */,
+				5DD6F65D297EDBED00A81997 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5DD6F658297EDAF900A81997 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F650297ED84D00A81997 /* Discover */,
+				5DD6F643297ED65E00A81997 /* Details */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5DD6F65F297EDC6700A81997 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F661297EDC7500A81997 /* UIView+Extension.swift */,
+				5DD6F666297EDD7A00A81997 /* UINavigationItem+Extension.swift */,
+				5DD6F68D297EFA7A00A81997 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5DD6F660297EDC6C00A81997 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5DD6F663297EDCD700A81997 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F664297EDCDD00A81997 /* NSNotifications.Name+Extension.swift */,
+				5DD6F668297EDDA200A81997 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5DD6F66E297EDF9800A81997 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F66F297EDFA000A81997 /* AppError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		5DD6F673297EE3E300A81997 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5DD6F674297EE3E700A81997 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F68A297EF39D00A81997 /* DiscoverBookTableViewCell */,
+				5DD6F684297EEF8800A81997 /* DiscoverTableView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5DD6F675297EE45200A81997 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F676297EE45900A81997 /* ResponseEntity.swift */,
+				5DD6F678297EE51000A81997 /* BookEntity.swift */,
+				5DD6F67A297EE51B00A81997 /* VolumeInfoEntity.swift */,
+				5DD6F67C297EE52800A81997 /* ImageLinksEntity.swift */,
+				5DD6F67E297EE53300A81997 /* IndustryIdentifiersEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		5DD6F684297EEF8800A81997 /* DiscoverTableView */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F682297EEF8000A81997 /* DiscoverTableView.swift */,
+				5DD6F680297EEE0E00A81997 /* DiscoverTVAdapter.swift */,
+			);
+			path = DiscoverTableView;
+			sourceTree = "<group>";
+		};
+		5DD6F68A297EF39D00A81997 /* DiscoverBookTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F688297EF17900A81997 /* DiscoverBookTVCell.swift */,
+				5DD6F68B297EF3AA00A81997 /* DiscoverBookTVCellModelProxy.swift */,
+			);
+			path = DiscoverBookTableViewCell;
+			sourceTree = "<group>";
+		};
+		5DD6F68F297EFBFD00A81997 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F699297EFEF800A81997 /* Tasks */,
+				5DD6F693297EFD0000A81997 /* Service */,
+				5DD6F690297EFC0300A81997 /* Tools */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		5DD6F690297EFC0300A81997 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F69C297EFFF200A81997 /* HttpMethod.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		5DD6F693297EFD0000A81997 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F694297EFD0800A81997 /* NetworkService.swift */,
+				5DD6F696297EFD1300A81997 /* NetworkServiceProtocol.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5DD6F699297EFEF800A81997 /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				5DD6F69A297EFF0100A81997 /* BookSearchTask.swift */,
+			);
+			path = Tasks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +431,9 @@
 			dependencies = (
 			);
 			name = SimpleGoogleSearchTestTask;
+			packageProductDependencies = (
+				5DD6F686297EF06A00A81997 /* Stevia */,
+			);
 			productName = SimpleGoogleSearchTestTask;
 			productReference = 5DD6F605297ED36800A81997 /* SimpleGoogleSearchTestTask.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +506,9 @@
 				Base,
 			);
 			mainGroup = 5DD6F5FC297ED36800A81997;
+			packageReferences = (
+				5DD6F685297EF06A00A81997 /* XCRemoteSwiftPackageReference "Stevia" */,
+			);
 			productRefGroup = 5DD6F606297ED36800A81997 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +527,6 @@
 			files = (
 				5DD6F615297ED36B00A81997 /* LaunchScreen.storyboard in Resources */,
 				5DD6F612297ED36B00A81997 /* Assets.xcassets in Resources */,
-				5DD6F610297ED36800A81997 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +551,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DD6F60D297ED36800A81997 /* ViewController.swift in Sources */,
+				5DD6F656297EDAE100A81997 /* DiscoverRouter.swift in Sources */,
+				5DD6F69B297EFF0100A81997 /* BookSearchTask.swift in Sources */,
+				5DD6F652297EDA0D00A81997 /* DiscoverViewController.swift in Sources */,
+				5DD6F67F297EE53300A81997 /* IndustryIdentifiersEntity.swift in Sources */,
+				5DD6F67D297EE52800A81997 /* ImageLinksEntity.swift in Sources */,
+				5DD6F670297EDFA000A81997 /* AppError.swift in Sources */,
+				5DD6F66D297EDEB700A81997 /* DiscoverBuilder.swift in Sources */,
 				5DD6F609297ED36800A81997 /* AppDelegate.swift in Sources */,
+				5DD6F689297EF17900A81997 /* DiscoverBookTVCell.swift in Sources */,
+				5DD6F68C297EF3AA00A81997 /* DiscoverBookTVCellModelProxy.swift in Sources */,
+				5DD6F662297EDC7500A81997 /* UIView+Extension.swift in Sources */,
+				5DD6F669297EDDA200A81997 /* String+Extension.swift in Sources */,
+				5DD6F683297EEF8000A81997 /* DiscoverTableView.swift in Sources */,
+				5DD6F66B297EDEB100A81997 /* DiscoverWorker.swift in Sources */,
+				5DD6F695297EFD0800A81997 /* NetworkService.swift in Sources */,
+				5DD6F654297EDAA500A81997 /* DiscoverModels.swift in Sources */,
+				5DD6F68E297EFA7A00A81997 /* UIViewController+Extension.swift in Sources */,
+				5DD6F672297EE08200A81997 /* DiscoverPresenter.swift in Sources */,
+				5DD6F65A297EDB0000A81997 /* Router.swift in Sources */,
+				5DD6F67B297EE51B00A81997 /* VolumeInfoEntity.swift in Sources */,
+				5DD6F65E297EDBED00A81997 /* BaseViewController.swift in Sources */,
 				5DD6F60B297ED36800A81997 /* SceneDelegate.swift in Sources */,
+				5DD6F69D297EFFF200A81997 /* HttpMethod.swift in Sources */,
+				5DD6F679297EE51000A81997 /* BookEntity.swift in Sources */,
+				5DD6F65C297EDBC800A81997 /* DiscoverInteractor.swift in Sources */,
+				5DD6F665297EDCDD00A81997 /* NSNotifications.Name+Extension.swift in Sources */,
+				5DD6F697297EFD1300A81997 /* NetworkServiceProtocol.swift in Sources */,
+				5DD6F667297EDD7A00A81997 /* UINavigationItem+Extension.swift in Sources */,
+				5DD6F681297EEE0E00A81997 /* DiscoverTVAdapter.swift in Sources */,
+				5DD6F677297EE45900A81997 /* ResponseEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +617,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5DD6F60E297ED36800A81997 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5DD6F60F297ED36800A81997 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5DD6F613297ED36B00A81997 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +678,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +732,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,19 +751,22 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimpleGoogleSearchTestTask/Info.plist;
+				INFOPLIST_FILE = SimpleGoogleSearchTestTask/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azizbekasadov.SimpleGoogleSearchTestTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -467,19 +782,22 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SimpleGoogleSearchTestTask/Info.plist;
+				INFOPLIST_FILE = SimpleGoogleSearchTestTask/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azizbekasadov.SimpleGoogleSearchTestTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -495,10 +813,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azizbekasadov.SimpleGoogleSearchTestTaskTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -515,10 +836,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azizbekasadov.SimpleGoogleSearchTestTaskTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -534,9 +858,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azizbekasadov.SimpleGoogleSearchTestTaskUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -552,9 +880,13 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7FCTC6DRE7;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.azizbekasadov.SimpleGoogleSearchTestTaskUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -602,6 +934,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5DD6F685297EF06A00A81997 /* XCRemoteSwiftPackageReference "Stevia" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freshOS/Stevia";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5DD6F686297EF06A00A81997 /* Stevia */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5DD6F685297EF06A00A81997 /* XCRemoteSwiftPackageReference "Stevia" */;
+			productName = Stevia;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5DD6F5FD297ED36800A81997 /* Project object */;
 }
