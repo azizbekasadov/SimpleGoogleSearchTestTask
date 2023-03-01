@@ -9,6 +9,7 @@ import Foundation
 
 protocol BookSearchTaskProtocol {
     typealias FetchBooksResult = ((Result<[BookEntity], Error>) -> Void)
+    
     func fetchBooks(by searchPrompt: String?, completion: @escaping FetchBooksResult)
 }
 

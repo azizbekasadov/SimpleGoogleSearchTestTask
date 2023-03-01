@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D74F68729AFCA4F001BEE1C /* SceneLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D74F68629AFCA4F001BEE1C /* SceneLoader.swift */; };
+		5D74F68929AFCA86001BEE1C /* AppSceneLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D74F68829AFCA86001BEE1C /* AppSceneLoader.swift */; };
 		5DD6F609297ED36800A81997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F608297ED36800A81997 /* AppDelegate.swift */; };
 		5DD6F60B297ED36800A81997 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD6F60A297ED36800A81997 /* SceneDelegate.swift */; };
 		5DD6F612297ED36B00A81997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DD6F611297ED36B00A81997 /* Assets.xcassets */; };
@@ -63,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D74F68629AFCA4F001BEE1C /* SceneLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneLoader.swift; sourceTree = "<group>"; };
+		5D74F68829AFCA86001BEE1C /* AppSceneLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSceneLoader.swift; sourceTree = "<group>"; };
 		5DD6F605297ED36800A81997 /* SimpleGoogleSearchTestTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGoogleSearchTestTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD6F608297ED36800A81997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DD6F60A297ED36800A81997 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +134,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D74F68529AFCA44001BEE1C /* SceneLoader */ = {
+			isa = PBXGroup;
+			children = (
+				5D74F68629AFCA4F001BEE1C /* SceneLoader.swift */,
+				5D74F68829AFCA86001BEE1C /* AppSceneLoader.swift */,
+			);
+			path = SceneLoader;
+			sourceTree = "<group>";
+		};
 		5DD6F5FC297ED36800A81997 = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +224,7 @@
 		5DD6F63B297ED3CF00A81997 /* AppLayer */ = {
 			isa = PBXGroup;
 			children = (
+				5D74F68529AFCA44001BEE1C /* SceneLoader */,
 				5DD6F608297ED36800A81997 /* AppDelegate.swift */,
 				5DD6F60A297ED36800A81997 /* SceneDelegate.swift */,
 			);
@@ -572,9 +586,11 @@
 				5DD6F65A297EDB0000A81997 /* Router.swift in Sources */,
 				5DD6F67B297EE51B00A81997 /* VolumeInfoEntity.swift in Sources */,
 				5DD6F65E297EDBED00A81997 /* BaseViewController.swift in Sources */,
+				5D74F68929AFCA86001BEE1C /* AppSceneLoader.swift in Sources */,
 				5DD6F60B297ED36800A81997 /* SceneDelegate.swift in Sources */,
 				5DD6F69D297EFFF200A81997 /* HttpMethod.swift in Sources */,
 				5DD6F679297EE51000A81997 /* BookEntity.swift in Sources */,
+				5D74F68729AFCA4F001BEE1C /* SceneLoader.swift in Sources */,
 				5DD6F65C297EDBC800A81997 /* DiscoverInteractor.swift in Sources */,
 				5DD6F665297EDCDD00A81997 /* NSNotifications.Name+Extension.swift in Sources */,
 				5DD6F697297EFD1300A81997 /* NetworkServiceProtocol.swift in Sources */,

@@ -30,17 +30,17 @@ extension DiscoverInteractor: DiscoverBusinessLogic {
     }
     
     func didEnterSearchPrompt(request: DiscoverModels.SearchPrompt.Request) {
-        worker.searchBook(by: request.searchPrompt) { result in
+        worker.searchBook(by: request.searchPrompt) { [weak presenter] result in
             switch result {
             case .success(let entities):
                 let response = DiscoverModels.SearchPrompt.Response(books: entities)
-                OperationQueue.main.addOperation { [weak self] in
-                    self?.presenter?.displaySearchResults(response: response)
+                OperationQueue.main.addOperation {
+                    presenter?.displaySearchResults(response: response)
                 }
             case .failure(let error):
                 let response = DiscoverModels.Error.Response(error: error as! LocalizedError)
-                OperationQueue.main.addOperation { [weak self] in
-                    self?.presenter?.displayError(response: response)
+                OperationQueue.main.addOperation {
+                    presenter?.displayError(response: response)
                 }
             }
         }

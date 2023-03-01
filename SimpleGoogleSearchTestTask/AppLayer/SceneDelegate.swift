@@ -8,6 +8,8 @@
 import UIKit
 
 final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
+    private(set) var sceneLoader: (any SceneLoader)?
+    
     var window: UIWindow?
     
     func scene(_ scene: UIScene,
@@ -18,11 +20,11 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             fatalError("Unable to instantiate window scene")
         }
         
-        let window = UIWindow(frame: UIScreen.main.bounds)
+        let window = UIWindow(windowScene: windowScene)
         self.window = window
-        self.window?.windowScene = windowScene
-        self.window?.rootViewController = DiscoverBuilder.build().withNavigation()
-        self.window?.makeKeyAndVisible()
+        
+        sceneLoader = AppSceneLoader(window)
+        (sceneLoader as? AppSceneLoader)?.makeScene(.home)
     }
 }
 

@@ -22,7 +22,7 @@ extension DiscoverPresenter: DiscoverPresentationProtocol {
     }
 
     func displaySearchResults(response: DiscoverModels.SearchPrompt.Response) {
-        let viewModel = DiscoverModels.SearchPrompt.ViewModel()
+        let viewModel = DiscoverModels.SearchPrompt.ViewModel(books: response.books)
         viewController?.revealSearchResults(viewModel: viewModel)
     }
     

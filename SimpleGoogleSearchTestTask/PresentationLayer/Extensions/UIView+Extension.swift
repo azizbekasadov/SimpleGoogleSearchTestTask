@@ -8,7 +8,6 @@
 import UIKit.UIView
 
 extension UIView {
-    
     @objc
     public func localize() {
         for view in self.subviews {

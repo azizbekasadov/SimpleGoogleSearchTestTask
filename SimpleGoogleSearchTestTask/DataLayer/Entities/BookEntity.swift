@@ -14,3 +14,4 @@ struct BookEntity: Codable {
     var selfLink: String?
     var volumeInfo: VolumeInfoEntity?
 }
+
